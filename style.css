@@ -1,0 +1,45 @@
+.navbar {
+    height: 10vh;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #1d5e37;
+}
+.btn {
+    padding: 12px 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 0;
+    transition: all ease-in-out ,5s;
+}
+.btn-brand {
+    background-color: #1d5e37;
+    color: aliceblue;
+}
+.btn-brand:hover {
+    border: 2px solid #1d5e37;
+    color: #1d5e37;
+}
+.navbar .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#banner {
+    background: url('sofa.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: rgb(70, 64, 60);
+}
+#banner p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
