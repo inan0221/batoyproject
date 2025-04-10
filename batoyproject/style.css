@@ -1,0 +1,168 @@
+.navbar {
+    height: 10vh;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #1d5e37;
+}
+.btn {
+    padding: 12px 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 0;
+    transition: all ease-in-out ,5s;
+}
+.btn-brand {
+    background-color: #1d5e37;
+    color: aliceblue;
+}
+.btn-brand:hover {
+    border: 2px solid #1d5e37;
+    color: #1d5e37;
+}
+.navbar .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#banner {
+    background: url('sofa.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: rgb(70, 64, 60);
+}
+#banner p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-img-top{
+    width: 35%;
+}
+.card {
+    padding: 25px 20px;  
+    border: 2px solid rgb(70, 64, 60);
+    transition: all ease-in .4s;
+}
+.card:hover{
+    box-shadow: 0 0 45px 0 rgb(70, 64, 60);
+    transform: scale(1.1);
+    background-color: blanchedalmond;
+}
+.card:hover .card-title,
+.card:hover .card-text {
+    color:rgb(0, 115, 255);
+}
+section {
+    padding: 100px 0;
+}
+#sugpon h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: rgb(70, 64, 60);
+    margin-bottom: 30px;
+}
+.wew {
+	width: 65px;
+}
+.testimonials {
+	border: 3px solid yellow;
+	padding: 20px;
+	margin-top: 20PX;
+	background-color: blueviolet;
+	color: aqua;
+	transition: all ease-in .4s;
+}
+.testimonials:hover {
+	transform: scale(1.1);
+}
+#faq{
+    background-color: black;
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+.accorion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accorion-button{
+    background-color: #1d5e37;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3;
+}
+.accordion-body{
+    border-left: 3px solid #d26915;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+.accordion-button:not(.collapsed){
+    background-color: #d2691e;
+    color: #FFf;
+}
+.accordion-button:hover{
+    background-color: #d2691e;
+    color: #fff;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #343a40;
+}
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a{
+    color: #d2691e;
+}
+#footer button{
+    border-radius: 1px;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        height: auto;
+    }
+    #banner h1{
+        font-size: 40px !important;
+    }
+    #sugpon h2{
+        font-size: 40px !important;
+    }
+    #sugpon .col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section{
+        padding: 60px 20px !important;
+    }
+    #footer{
+        padding: 60px 20px !important;;
+    }
+    #about img{
+        height: 350px;
+        width: 350px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+    #about h2{
+        font-size: 40px !important;
+    }
+}
